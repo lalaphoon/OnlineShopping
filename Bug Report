@@ -1,0 +1,9 @@
+Bug Report
+
+1. No Such Bean Definition Exception, no such name defined "PaymentAction"
+https://www.baeldung.com/spring-nosuchbeandefinitionexception
+https://www.dev2qa.com/spring-java-based-configuration-example/
+fix: @Bean(name = "PaymentAction") in ApplicationConfig, which was @Bean only
+
+2. Failed on Maven install
+https://stackoverflow.com/questions/6308162/maven-the-packaging-for-this-project-did-not-assign-a-file-to-the-build-artifac

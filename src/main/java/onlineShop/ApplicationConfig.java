@@ -31,7 +31,7 @@ public class ApplicationConfig {
         // change the username and password
         dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/ecommerce?serverTimezone=UTC");
         dataSource.setUsername("root");
-        dataSource.setPassword("Looo!111");
+        dataSource.setPassword("12345678");
 
         return dataSource;
     }
